@@ -1,4 +1,7 @@
 # LARQS
 ## An Evaluation Dataset for Chinese Codex Word Embedding Model 
 Word embedding is a modern distributed word representations approach widely used in many natural language processing tasks. Converting the vocabulary in a legal document into a word embedding model facilitates subjecting legal documents to machine learning, deep learning, and other algorithms and subsequently performing the downstream tasks of natural language processing vis-à-vis, for instance, document classification, contract review, and machine translation. The most common and practical approach of accuracy evaluation with the word embedding model uses a benchmark set with linguistic rules or the relationship between words to perform analogy reasoning via algebraic calculation. This paper proposes establishing a 1,134 Legal Analogical Reasoning Questions Set (LARQS) from the 2,388 Chinese Codex corpus using five kinds of legal relations, which are then used to evaluate the accuracy of the Chinese word embedding model. Moreover, we discovered that legal relations might be ubiquitous in the word embedding model.
-The paper is [here].(https://arxiv.org/abs/2203.15173)
+The paper is here (https://arxiv.org/abs/2203.15173)
+
+將文件中的單詞以向量形式編碼的詞嵌入模型，是當前最常見的無監督式單詞編碼方法。將法律詞彙轉換為緊湊的詞嵌入模型，就能更便利的使用機器學習、深度學習等與自然語言處理相關的演算法，將可更近一步從事法律文件的文檔分類，合約審查和機器翻譯等自然語言處理的下游應用任務。評估詞嵌入模型精確度常見且有效的方式，是建立一組具有語言規律或是詞彙關係的評估資料集，將此評估資料內的詞彙關係題組，以代數計算方式對詞嵌入模型進行類比推理。本文嘗試從2,388部中文法典語料庫中，以5種法律上的關係，建立了1,134個法律上的類比推理問題集（Legal Analogical Reasoning Questions Set, LARQS)，用以評估中文詞向量模型準確度。在本文的實驗中，同時與中研院詞庫小組翻譯自Google釋出的評估資料集、自CA8的簡體中文轉換成繁體中文的評估資料集等進行比較，在相同的詞嵌入模型下，以本文的中文法典資料集所建成的評估資料集所得到的準確度，最佳狀況下可以達到約67%的準確度，並發現詞彙間的法律關係是相對比較普遍存在於詞嵌入模型中的。
+論文可以在此下載 (https://arxiv.org/abs/2203.15173)
